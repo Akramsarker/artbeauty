@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 960px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
+  <title>Art Beauty</title>
+</head>
+<body id="home">
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-fist">
+        <i class="fas fa-paint-brush"></i> Art</span> Beauty
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header: Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading"><div class="test">
+        The Sky Is The Limit</div>
+      </h1>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus debitis praesentium inventore, eum deserunt.
+      </p>
+      <a href="#what" class="btu">Read More</a>
+    </div>
+  </header>
+
+  <!-- Section: What We Do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+          </div>
+        </div>
+        <div class="item">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Portfolio Management</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+            </div>
+        </div>
+        <div class="item">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Tax & Custodial</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Who We Are -->
+  <section id="who">
+    <div><img src="./img/4.jpg" alt="" width="100%"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat corrupti. Ipsa, itaque quas.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>MD nasim uddin:JOB.PRO</li>
+        <li>GOLAM rabbi: RANING W.D.J</li>
+        <li>MD akram sheikh: RANING W.D.J</li>
+        <li>MD nasir uddin:P.R.O</li>
+        <li>MD raihan :</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section: Clients -->
+  <section id="clients" class="py-1">
+    <div class="container">
+      <h2 class="m-heading text-center">
+        <span class="text-primary">Our</span> Clients
+      </h2>
+      <div class="items py-1">
+        <div><img src="./img/logoa.png" alt="Client"></div>
+        <div><img src="./img/logos/logo2.png" alt="Client"></div>
+        <div><img src="./img/logos/logo3.png" alt="Client"></div>
+        <div><img src="./img/logos/logo4.png" alt="Client"></div>
+        <div><img src="./img/logos/logo5.png" alt="Client"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form action="process.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label><br>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label><br>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class="btu btn-dark">
+      </form>
+    </div>
+    <div class="map">
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.933006622539!2d89.35510101554176!3d24.900266684035174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc5580e6d1053d%3A0x79830ecb3e34f2f4!2sHotel+Momo+Inn!5e0!3m2!1sen!2sbd!4v1505298061134"
+          width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+  </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2020, EdgeLedger, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+
+  <script src="js/main.js"></script>
+
+  <!-- Google Maps -->
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
+  async defer></script>
+</body>
+</html>
